@@ -155,6 +155,11 @@ src="https://www.facebook.com/tr?id=1339084413122023&ev=PageView&noscript=1"
               </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                <script type="text/javascript">
+  $('#$addToCartButton').click(function() {
+    fbq('track', 'Purchase', {currency: "USD", value: 30.00});
+  });
+</script>
               </form>
             </div>
           </div>
